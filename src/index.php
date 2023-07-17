@@ -102,6 +102,7 @@ $lastsite_index = count($sites) - 1;
 <?php if ($num_clinks < 50) {?>
         <a class="btn btn-secondary mb-2" data-index="<?=($lastsite_index + $num_clinks)?>" role="button">+ Add Additional Link</a>
 <?php }?>
+        <button type="button" class="btn btn-outline-secondary" style="margin: 0 0 0.5rem 1rem;" id="reset">Reset</button>
       <div class="mb-3">
         <div class="form-text">
           For custom links, you may use <a href="https://forkaweso.me/Fork-Awesome/icons/">any icon name from Fork-Awesome</a>. For example, <code>mastodon</code>. Icon field may be left blank.
