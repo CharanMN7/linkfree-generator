@@ -72,3 +72,6 @@ addClinkBtn.addEventListener("click", (e) => {
   let lastClink = document.querySelector(`form div:nth-child(${index + 5})`);
   lastClink.after(newClink);
 });
+
+// Object that stores everything:
+let theStore = {};
